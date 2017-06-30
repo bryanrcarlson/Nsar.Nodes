@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
-namespace Nsar.Nodes.Models.LoggerNet
+namespace Nsar.Nodes.Models.LoggerNet.Meteorology
 {
-    public class MeteorologyMetadata
+    public class Metadata
     {
         public string   FileFormat                  { get; set; }
         public string   StationName                 { get; set; }
@@ -15,6 +13,6 @@ namespace Nsar.Nodes.Models.LoggerNet
         public int      DataloggerProgramSignature  { get; set; }
         public string   TableName                   { get; set; }
 
-        public List<MeteorologyVariable> Variables { get; set; }
+        public List<Variable> Variables { get; set; }
     }
 }

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Nsar.Nodes.Models.LoggerNet
+namespace Nsar.Nodes.Models.LoggerNet.Meteorology
 {
-    public class MeteorologyVariable
+    public class Variable
     {
         public string FieldName { get; set; }
         public string Units { get; set; }

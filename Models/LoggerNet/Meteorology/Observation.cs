@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Nsar.Nodes.Models.LoggerNet
+namespace Nsar.Nodes.Models.LoggerNet.Meteorology
 {
-    public class MeteorologyObservation
+    public class Observation
     {
         public DateTime TIMESTAMP { get; set; }
         public int RECORD { get; set; }

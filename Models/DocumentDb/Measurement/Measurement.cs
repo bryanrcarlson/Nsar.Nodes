@@ -4,14 +4,14 @@ using Nsar.Nodes.Models.DocumentDb;
 
 namespace Nsar.Nodes.Models.DocumentDb.Measurement
 {
-    class Measurement
+    public class Measurement
     {
         public string Type { get; set; }
         public string Name { get; set; }
         public DateTime MeasurementDateTime { get; set; }
         public string MetadataId { get; set; }
         public List<PhysicalQuantity> PhysicalQuantities { get; set; }
-        public int SchemaVersion { get; set; }
+        public string SchemaVersion { get; set; }
         public Location Location { get; set; }
         public string FieldId { get; set; }
         public string Id { get; set; }

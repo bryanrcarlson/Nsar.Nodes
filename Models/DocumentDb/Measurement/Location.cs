@@ -6,7 +6,7 @@ namespace Nsar.Nodes.Models.DocumentDb.Measurement
 {
     public class Location
     {
-        public string Type { get; set; }
-        public List<double> Coordinates { get; set; }
+        public string type { get; set; }
+        public List<double> coordinates { get; set; }
     }
 }

@@ -8,13 +8,18 @@ namespace Nsar.Nodes.Models.DocumentDb.Measurement
     {
         //public double Value { get { return base.Value; } }
         //public string Unit { get { return base.Unit; } }
-        public int QualityCode { get; set; }
-        public int QcAppliedCode { get; set; }
-        public int QcResultCode { get; set; }
-        public DateTime SubmissionDateTime { get; set; }
-        public string SourceId { get; set; }
+        public int qualityCode { get; set; }
+        public int qcAppliedCode { get; set; }
+        public int qcResultCode { get; set; }
+        public DateTime submissionDateTime { get; set; }
+        public string sourceId { get; set; }
 
         public PhysicalQuantity(decimal value, string unit, int precision = int.MaxValue) 
             : base(value, unit, precision) { }
+
+        public override bool Equals(object obj)
+        {
+            return base.Equals(obj);
+        }
     }
 }

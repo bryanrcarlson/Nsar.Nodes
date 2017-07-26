@@ -1,0 +1,70 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "#",
+  
+  "definitions": {
+    "cosmos-entity": {
+      "type": "object",
+      "properties": {
+		"partitionKey": {
+			"type": "string"
+		},
+		"id": {
+			"type": "string"
+		},
+		"type": {
+          "type": "string"
+        },
+		"name": {
+          "type": "string"
+        },
+		"schemaVersion": {
+          "type": "string",
+          "pattern": "[0-9]{1,}[.]{1}[0-9]{1,}[.]{1}[0-9]{1,}"
+        },
+		"metadataId": {
+          "type": "string"
+        },
+        "_rid": {
+          "type": "string"
+        },
+		"_self": {
+          "type": "string"
+        },
+		"_etag": {
+          "type": "string"
+        },
+		"_attachments": {
+          "type": "string"
+        },
+		"_ts": {
+          "type": "integer"
+        }
+      },
+      "required": [ "partitionKey", "id", "type", "name", "schemaVersion", "metadataId" ]
+    },
+	"cosmos-internal": {
+      "type": "object",
+      "properties": {
+        "_rid": {
+          "type": "string"
+        },
+		"_self": {
+          "type": "string"
+        },
+		"_etag": {
+          "type": "string"
+        },
+		"_attachments": {
+          "type": "string"
+        },
+		"_ts": {
+          "type": "integer"
+        }
+      },
+      "required": [ ]
+    }
+  }
+  }
+  
+}

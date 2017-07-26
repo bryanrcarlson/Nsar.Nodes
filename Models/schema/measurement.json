@@ -1,0 +1,121 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "#",
+  
+  "definitions": {
+    "measurement": {
+      "type": "object",
+      "properties": {
+		"partitionKey": {
+			"type": "string"
+		},
+		"id": {
+			"type": "string"
+		},
+		"type": {
+          "type": "string"
+        },
+		"name": {
+          "type": "string"
+        },
+		"schemaVersion": {
+          "type": "string",
+          "pattern": "[0-9]{1,}[.]{1}[0-9]{1,}[.]{1}[0-9]{1,}"
+        },
+		"metadataId": {
+          "type": "string"
+        },
+        "fieldId": {
+          "type": "string",
+		  "enum": ["CookEast", "CookWest", "BoydNorth", "BoydSouth"]
+        },
+        "location": {
+          "properties": {
+            "coordinates": {
+              "items": [
+                {
+                  "type": "number",
+                  "minimum": 24,
+                  "maximum": 50
+                },
+                {
+                  "type": "number",
+                  "minimum": -126,
+                  "maximum": -66
+                }
+              ],
+              "type": "array"
+            },
+            "type": {
+              "type": "string",
+              "enum": ["Point"]
+            }
+          },
+          "type": "object",
+          "requred": [
+            "coordinates",
+            "type"]
+        },
+        "measurementDateTime": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "physicalQuantities": {
+          "items": {
+            "properties": {
+              "value": {
+                "type": "number"
+              },
+			  "unit": {
+                "type": "string"
+              },
+			  "qualityCode": {
+                "type": "integer"
+              },
+              "qcAppliedCode": {
+                "type": "integer"
+              },
+              "qcResultCode": {
+                "type": "number"
+              },
+			  "submissionDateTime": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "sourceId": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "qualityCode",
+              "qcAppliedCode",
+              "qcResultCode",
+              "submissionDateTime",
+              "sourceId",
+              "value",
+              "unit"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        },
+        "_rid": {
+          "type": "string"
+        },
+		"_self": {
+          "type": "string"
+        },
+		"_etag": {
+          "type": "string"
+        },
+		"_attachments": {
+          "type": "string"
+        },
+		"_ts": {
+          "type": "integer"
+        }
+      },
+      "required": [ "partitionKey", "id", "type", "name", "schemaVersion", "metadataId", "measurementDateTime", "physicalQuantities",  "location", "fieldId" ]
+    }
+  }
+}

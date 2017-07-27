@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "#",
+  "id": "https://raw.githubusercontent.com/bryanrcarlson/Nsar.Nodes/master/Models/schema/common.json#",
   
   "definitions": {
     "cosmos-entity": {
@@ -24,21 +24,6 @@
         },
 		"metadataId": {
           "type": "string"
-        },
-        "_rid": {
-          "type": "string"
-        },
-		"_self": {
-          "type": "string"
-        },
-		"_etag": {
-          "type": "string"
-        },
-		"_attachments": {
-          "type": "string"
-        },
-		"_ts": {
-          "type": "integer"
         }
       },
       "required": [ "partitionKey", "id", "type", "name", "schemaVersion", "metadataId" ]
@@ -61,10 +46,7 @@
 		"_ts": {
           "type": "integer"
         }
-      },
-      "required": [ ]
+      }
     }
   }
-  }
-  
 }

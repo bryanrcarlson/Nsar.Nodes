@@ -45,5 +45,30 @@ namespace Nsar.Nodes.Models.DocumentDb.Measurement
 
         [JsonProperty("physicalQuantities")]
         public List<PhysicalQuantity> PhysicalQuantities { get; set; }
+
+        public Measurement(
+            string partitionKey, string id, string type, string name,
+            string schemaVersion, string metadataID, string _rid,
+            string _self, string _etag, string _attachements,
+            int? _ts, string fieldId, Location location,
+            DateTime measurementDateTime,
+            List<PhysicalQuantity> physicalQuantities)
+        {
+            PartitionKey = partitionKey;
+            ID = id;
+            Type = type;
+            Name = name;
+            SchemaVersion = schemaVersion;
+            MetadataID = metadataID;
+            this._rid = _rid;
+            this._self = _self;
+            this._etag = _etag;
+            this._attachments = _attachments;
+            this._ts = _ts;
+            FieldID = fieldId;
+            Location = location;
+            MeasurementDateTime = measurementDateTime;
+            PhysicalQuantities = physicalQuantities;
+        }
     }
 }

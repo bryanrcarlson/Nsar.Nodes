@@ -12,5 +12,18 @@ namespace Nsar.Nodes.Models.DocumentDb.Measurement
 
         [JsonProperty("coordinates")]
         public List<double> Coordinates { get; private set; }
+
+        public Location(
+            string type,
+            double latitude,
+            double longitude)
+        {
+            Type = type;
+            Coordinates = new List<double>()
+            {
+                latitude,
+                longitude
+            };
+        }
     }
 }

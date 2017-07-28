@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema#",
-    "id": "https://raw.githubusercontent.com/bryanrcarlson/Nsar.Nodes/master/Models/schema/v1/measurement.json#",
+    "id": "https://raw.githubusercontent.com/bryanrcarlson/Nsar.Nodes/master/Models/DocumentDb/schema/v1/measurement.json#",
     "allOf": [
         {
             "$ref": "common.json#/definitions/cosmos-entity"

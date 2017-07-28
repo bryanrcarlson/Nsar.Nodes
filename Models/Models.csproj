@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFrameworks>net46;netstandard1.3</TargetFrameworks>
     <PackageId>Nsar.Nodes.Models</PackageId>
-    <PackageVersion>0.4.1</PackageVersion>
+    <PackageVersion>1.0.0</PackageVersion>
     <Authors>Bryan Carlson</Authors>
     <Description>Node models</Description>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
@@ -22,7 +22,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
     <PackageReference Include="Nsar.Common.Measure" Version="0.3.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="DocumentDb\schema\v1\common.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="DocumentDb\schema\v1\measurement.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

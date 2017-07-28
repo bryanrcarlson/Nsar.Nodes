@@ -4,5 +4,10 @@
         <name>Nsar.Nodes.Models</name>
     </assembly>
     <members>
+        <member name="T:Nsar.Nodes.Models.DocumentDb.Measurement.Measurement">
+            <summary>
+            Dto class for data as described by json-schema located in schema\v1\measurement.json or https://raw.githubusercontent.com/bryanrcarlson/Nsar.Nodes/master/Models/DocumentDb/schema/v1/measurement.json#
+            </summary>
+        </member>
     </members>
 </doc>

@@ -28,14 +28,6 @@ namespace Nsar.Nodes.Models.DocumentDb.Measurement
         [JsonProperty("sourceId")]
         public string SourceID { get; private set; }
 
-        //public PhysicalQuantity(decimal value, string unit, int precision = int.MaxValue) 
-        //    : base(value, unit, precision) { }
-
-        //public override bool Equals(object obj)
-        //{
-        //    return base.Equals(obj);
-        //}
-
         public PhysicalQuantity(
             decimal value, string unit, int qualityCode,
             int qcAppliedCode, int qcResultCode,

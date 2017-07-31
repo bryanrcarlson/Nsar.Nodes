@@ -3,10 +3,10 @@
     "id": "https://raw.githubusercontent.com/bryanrcarlson/Nsar.Nodes/master/Models/DocumentDb/schema/v1/measurement.json#",
     "allOf": [
         {
-            "$ref": "common.json#/definitions/cosmos-entity"
+            "$ref": "common.json#/definitions/cosmosEntity"
         },
         {
-            "$ref": "common.json#/definitions/cosmos-internal"
+            "$ref": "common.json#/definitions/cosmosInternal"
         }
     ],
     "properties": {

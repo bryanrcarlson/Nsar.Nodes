@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "definitions": {
-    "cosmos-entity": {
+    "cosmosEntity": {
       "type": "object",
       "properties": {
         "partitionKey": {
@@ -33,7 +33,7 @@
         "metadataId"
       ]
     },
-    "cosmos-internal": {
+    "cosmosInternal": {
       "type": "object",
       "properties": {
         "_rid": {

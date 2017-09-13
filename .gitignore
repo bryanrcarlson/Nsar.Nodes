@@ -33,7 +33,5 @@ msbuild.wrn
 
 # Embedded Solutions
 CafEcTower
-LtarDataPortal
+/LtarDataPortal
 NwccScan
-
-!Models

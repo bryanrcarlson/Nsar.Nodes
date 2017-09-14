@@ -23,11 +23,13 @@ namespace Nsar.Nodes.Models.LtarDataPortal.CORe
         public decimal? LongWaveIn { get; private set; }
         public decimal? BatteryVoltage { get; private set; }
         public decimal? LoggerTemperature { get; private set; }
+        
 
         public Observation(
             string ltarSiteAcronym,
             string stationID,
             DateTimeOffset dateTime,
+            int utcOffset,
             char recordType,
             decimal? airTemperature,
             decimal? windSpeed,
@@ -41,6 +43,11 @@ namespace Nsar.Nodes.Models.LtarDataPortal.CORe
             decimal? batteryVoltage,
             decimal? loggerTemperature)
         {
+            if(dateTime.Offset.Hours != utcOffset)
+            {
+                throw new ArgumentException(
+                    "dateTime hour offset does not match utcOffset");
+            }
             this.LTARSiteAcronym = ltarSiteAcronym;
             this.StationID = stationID;
             this.DateTime = dateTime;

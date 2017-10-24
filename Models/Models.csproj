@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFrameworks>net46;netstandard1.3</TargetFrameworks>
     <PackageId>Nsar.Nodes.Models</PackageId>
-    <PackageVersion>1.4.1</PackageVersion>
+    <PackageVersion>1.5.0</PackageVersion>
     <Authors>Bryan Carlson</Authors>
     <Description>Node models</Description>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>

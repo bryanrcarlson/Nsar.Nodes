@@ -16,11 +16,10 @@
         "name": {
           "type": "string"
         },
-        "schemaVersion": {
-          "type": "string",
-          "pattern": "[0-9]{1,}[.]{1}[0-9]{1,}[.]{1}[0-9]{1,}"
+        "schemaID": {
+          "type": "string"
         },
-        "metadataId": {
+        "metadataID": {
           "type": "string"
         }
       },
@@ -29,8 +28,8 @@
         "id",
         "type",
         "name",
-        "schemaVersion",
-        "metadataId"
+        "schemaID",
+        "metadataID"
       ]
     },
     "cosmosInternal": {
@@ -53,44 +52,21 @@
         }
       }
     },
-    "fieldId": {
+    "areaOfInterestID": {
       "type": "string",
       "enum": [
-        "CookEast",
-        "CookWest",
-        "BoydNorth",
-        "BoydSouth"
+        "CookEast_Boundary_*",
+        "CookWest_Boundary_*",
+        "BoydNorth_Boundary_*",
+        "BoydSouth_Boundary_*",
+        "Cook_Boundary_*",
+        "Boyd_Boundary_*",
+        "Caf_Boundary_*",
+        "Ltar_Boundary_*"
       ]
     },
     "location": {
-      "properties": {
-        "coordinates": {
-          "items": [
-            {
-              "type": "number",
-              "minimum": 24,
-              "maximum": 50
-            },
-            {
-              "type": "number",
-              "minimum": -126,
-              "maximum": -66
-            }
-          ],
-          "type": "array"
-        },
-        "type": {
-          "type": "string",
-          "enum": [
-            "Point"
-          ]
-        }
-      },
-      "type": "object",
-      "required": [
-        "coordinates",
-        "type"
-      ]
+      "$ref": "geojson.json#"
     },
     "physicalQuantities": {
       "items": {
@@ -114,7 +90,7 @@
             "type": "string",
             "format": "date-time"
           },
-          "sourceId": {
+          "sourceID": {
             "type": "string"
           }
         },
@@ -123,7 +99,7 @@
           "qcAppliedCode",
           "qcResultCode",
           "submissionDateTime",
-          "sourceId",
+          "sourceID",
           "value",
           "unit"
         ],
@@ -132,5 +108,5 @@
       "type": "array"
     }
   },
-  "id": "https://raw.githubusercontent.com/bryanrcarlson/Nsar.Nodes/master/Models/DocumentDb/schema/v1/common.json#"
+  "id": "https://raw.githubusercontent.com/bryanrcarlson/Nsar.Nodes/master/Models/DocumentDb/schema/v20180101/common.json#"
 }

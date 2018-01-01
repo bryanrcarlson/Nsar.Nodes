@@ -106,6 +106,38 @@
         "type": "object"
       },
       "type": "array"
+    },
+    "personContact": {
+      "type": "object",
+      "properties": {
+        "firstName": {
+          "type": "string"
+        },
+        "lastName": {
+          "type": "string"
+        },
+        "phoneNumber": {
+          "type": "string",
+          "pattern": "^(\\([0-9]{3}\\))?[0-9]{3}-[0-9]{4}$"
+        },
+        "email": {
+          "type": "string",
+          "pattern": "^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,}$"
+        },
+        "affiliatedOrganization": {
+          "type": "string"
+        },
+        "positionTitle": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "firstName",
+        "lastName",
+        "email",
+        "affiliatedOrganization",
+        "positionTitle"
+      ]
     }
   },
   "id": "https://raw.githubusercontent.com/bryanrcarlson/Nsar.Nodes/master/Models/DocumentDb/schema/v20180101/common.json#"

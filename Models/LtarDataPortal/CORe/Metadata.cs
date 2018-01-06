@@ -6,16 +6,40 @@ using System.Threading.Tasks;
 
 namespace Nsar.Nodes.Models.LtarDataPortal.CORe
 {
+    /// <summary></summary>
     public class Metadata
     {
+        /// <summary></summary>
         public string LtarSiteAcronym { get; private set; }
+
+        /// <summary></summary>
         public string StationID { get; private set; }
+
+        /// <summary></summary>
         public char RecordType { get; private set; }
+
+        /// <summary></summary>
         public string DataFormatVersion { get; private set; }
+
+        /// <summary></summary>
         public string Year { get; private set; }
+
+        /// <summary></summary>
         public string Month { get; private set; }
+
+        /// <summary></summary>
         public string Day { get; private set; }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="ltarSiteAcronym"></param>
+        /// <param name="stationID"></param>
+        /// <param name="recordType"></param>
+        /// <param name="dataFormatVersion"></param>
+        /// <param name="year"></param>
+        /// <param name="month"></param>
+        /// <param name="day"></param>
         public Metadata(
             string ltarSiteAcronym,
             string stationID,

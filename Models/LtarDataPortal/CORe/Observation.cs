@@ -6,25 +6,73 @@ using System.Threading.Tasks;
 
 namespace Nsar.Nodes.Models.LtarDataPortal.CORe
 {
+    /// <summary></summary>
     public class Observation
     {
+        /// <summary></summary>
         public string LTARSiteAcronym { get; private set; }
+
+        /// <summary></summary>
         public string StationID { get; private set; }
+
+        /// <summary></summary>
         public DateTimeOffset DateTime { get; private set; }
+
+        /// <summary></summary>
         public char RecordType { get; private set; }
+
+        /// <summary></summary>
         public decimal? AirTemperature { get; private set; }
+
+        /// <summary></summary>
         public decimal? WindSpeed { get; private set; }
+
+        /// <summary></summary>
         public decimal? WindDirection { get; private set; }
+
+        /// <summary></summary>
         public decimal? RelativeHumidity { get; private set; }
+
+        /// <summary></summary>
         public decimal? Precipitation { get; private set; }
+
+        /// <summary></summary>
         public decimal? AirPressure { get; private set; }
+
+        /// <summary></summary>
         public decimal? PAR { get; private set; }
+
+        /// <summary></summary>
         public decimal? ShortWaveIn { get; private set; }
+
+        /// <summary></summary>
         public decimal? LongWaveIn { get; private set; }
+
+        /// <summary></summary>
         public decimal? BatteryVoltage { get; private set; }
+
+        /// <summary></summary>
         public decimal? LoggerTemperature { get; private set; }
         
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="ltarSiteAcronym"></param>
+        /// <param name="stationID"></param>
+        /// <param name="dateTime"></param>
+        /// <param name="utcOffset"></param>
+        /// <param name="recordType"></param>
+        /// <param name="airTemperature"></param>
+        /// <param name="windSpeed"></param>
+        /// <param name="windDirection"></param>
+        /// <param name="relativeHumidity"></param>
+        /// <param name="precipitation"></param>
+        /// <param name="airPressure"></param>
+        /// <param name="par"></param>
+        /// <param name="shortWaveIn"></param>
+        /// <param name="longWaveIn"></param>
+        /// <param name="batteryVoltage"></param>
+        /// <param name="loggerTemperature"></param>
         public Observation(
             string ltarSiteAcronym,
             string stationID,

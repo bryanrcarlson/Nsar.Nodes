@@ -154,6 +154,744 @@
             <param name="submissionDateTime"></param>
             <param name="sourceID"></param>
         </member>
+        <member name="T:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux">
+            <summary></summary>
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.TIMESTAMP">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.RECORD">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.old_L">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.old_u_star">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.old_Fc_wpl">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.old_Fc_hf_wpl">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.old_LE_wpl">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.old_Hc">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.old_Uz_Std">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.old_CO2_mg_m3_Avg">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.old_CO2_mg_m3_Std">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.old_CO2_hf_mg_m3_Avg">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.old_CO2_hf_mg_m3_Std">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.old_Tc_Avg">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.old_amb_press_Avg">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.Fc_molar">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.Fc_mass">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.Fc_qc_grade">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.Fc_samples_Tot">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.LE">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.LE_qc_grade">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.LE_samples_Tot">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.H">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.H_qc_grade">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.H_samples_Tot">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.Rn">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.G_surface">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.energy_closure">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.Bowen_ratio">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.tau">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.tau_qc_grade">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.u_star">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.T_star">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.TKE">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.amb_tmpr_Avg">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.Td_Avg">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.RH_Avg">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.e_sat_Avg">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.e_Avg">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.amb_press_Avg">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.VPD_air">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.Ux_Avg">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.Ux_Std">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.Uy_Avg">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.Uy_Std">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.Uz_Avg">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.Uz_Std">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.Ts_Avg">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.Ts_Std">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.sonic_azimuth">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.wnd_spd">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.rslt_wnd_spd">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.wnd_dir_sonic">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.std_wnd_dir">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.wnd_dir_compass">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.CO2_molfrac_Avg">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.CO2_mixratio_Avg">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.CO2_Avg">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.CO2_Std">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.H2O_molfrac_Avg">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.H2O_mixratio_Avg">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.H2O_Avg">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.H2O_Std">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.CO2_sig_strgth_Min">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.H2O_sig_strgth_Min">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.T_probe_Avg">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.e_probe_Avg">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.e_sat_probe_Avg">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.Td_probe_Avg">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.H2O_probe_Avg">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.RH_probe_Avg">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.rho_a_probe_Avg">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.rho_d_probe_Avg">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.Precipitation_Tot">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.Rn_meas_Avg">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.NRLITE_SENS">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.PAR_density_Avg">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.QUANTUM_SENS">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.cupvane_WS_Avg">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.cupvane_WS_rslt_Avg">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.cupvane_WD_rslt_Avg">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.cupvane_WD_csi_Std">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.Tsoil_Avg">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.tdr315_wc_Avg1">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.tdr315_wc_Avg2">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.tdr315_tmpr_Avg1">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.tdr315_tmpr_Avg2">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.tdr315_E_Avg1">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.tdr315_E_Avg2">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.tdr315_bulkEC_Avg1">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.tdr315_bulkEC_Avg2">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.tdr315_poreEC_Avg1">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.tdr315_poreEC_Avg2">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.shf_plate_avg">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.SHFP_1_SENS">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.profile_tdr315_wc_Avg1">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.profile_tdr315_wc_Avg2">
+            <summary></summary>             
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.profile_tdr315_wc_Avg3">
+            <summary></summary>             
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.profile_tdr315_wc_Avg4">
+            <summary></summary>             
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.profile_tdr315_wc_Avg5">
+            <summary></summary>             
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.profile_tdr315_wc_Avg6">
+            <summary></summary>             
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.profile_tdr315_tmpr_Avg1">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.profile_tdr315_tmpr_Avg2">
+            <summary></summary>               
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.profile_tdr315_tmpr_Avg3">
+            <summary></summary>               
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.profile_tdr315_tmpr_Avg4">
+            <summary></summary>               
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.profile_tdr315_tmpr_Avg5">
+            <summary></summary>               
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.profile_tdr315_tmpr_Avg6">
+            <summary></summary>               
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.profile_tdr315_E_Avg1">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.profile_tdr315_E_Avg2">
+            <summary></summary>              
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.profile_tdr315_E_Avg3">
+            <summary></summary>              
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.profile_tdr315_E_Avg4">
+            <summary></summary>              
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.profile_tdr315_E_Avg5">
+            <summary></summary>              
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.profile_tdr315_E_Avg6">
+            <summary></summary>              
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.profile_tdr315_bulkEC_Avg1">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.profile_tdr315_bulkEC_Avg2">
+            <summary></summary>                 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.profile_tdr315_bulkEC_Avg3">
+            <summary></summary>                 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.profile_tdr315_bulkEC_Avg4">
+            <summary></summary>                 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.profile_tdr315_bulkEC_Avg5">
+            <summary></summary>                 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.profile_tdr315_bulkEC_Avg6">
+            <summary></summary>                 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.profile_tdr315_poreEC_Avg1">
+            <summary></summary>                 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.profile_tdr315_poreEC_Avg2">
+            <summary></summary>                 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.profile_tdr315_poreEC_Avg3">
+            <summary></summary>                 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.profile_tdr315_poreEC_Avg4">
+            <summary></summary>                 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.profile_tdr315_poreEC_Avg5">
+            <summary></summary>                 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.profile_tdr315_poreEC_Avg6">
+            <summary></summary>                 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.upwnd_dist_intrst">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.FP_dist_intrst">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.FP_max">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.FP_40">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.FP_55">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.FP_90">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.FP_Equation">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.UxUy_Cov">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.UxUz_Cov">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.UyUz_Cov">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.TsUx_Cov">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.TsUy_Cov">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.TsUz_Cov">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.u_star_R">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.u_Avg_R">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.u_Std_R">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.v_Avg_R">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.v_Std_R">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.w_Avg_R">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.w_Std_R">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.uv_Cov_R">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.uw_Cov_R">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.vw_Cov_R">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.uTs_Cov_R">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.vTs_Cov_R">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.wTs_Cov_R">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.uw_Cov_R_F">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.vw_Cov_R_F">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.wTs_Cov_R_F">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.wTs_Cov_R_F_SND">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.sonic_samples_Tot">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.no_sonic_head_Tot">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.no_new_sonic_data_Tot">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.sonic_amp_l_f_Tot">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.sonic_amp_h_f_Tot">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.sonic_sig_lck_f_Tot">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.sonic_del_T_f_Tot">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.sonic_aq_sig_f_Tot">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.sonic_cal_err_f_Tot">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.UxCO2_Cov">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.UyCO2_Cov">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.UzCO2_Cov">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.UxH2O_Cov">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.UyH2O_Cov">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.UzH2O_Cov">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.uCO2_Cov_R">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.vCO2_Cov_R">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.wCO2_Cov_R">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.uH2O_Cov_R">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.vH2O_Cov_R">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.wH2O_Cov_R">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.wCO2_Cov_R_F">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.wH2O_Cov_R_F">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.CO2_E_WPL_R_F">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.CO2_T_WPL_R_F">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.H2O_E_WPL_R_F">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.H2O_T_WPL_R_F">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.CO2_samples_Tot">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.H2O_samples_Tot">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.no_irga_head_Tot">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.no_new_irga_data_Tot">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.irga_bad_data_f_Tot">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.irga_gen_fault_f_Tot">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.irga_startup_f_Tot">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.irga_motor_spd_f_Tot">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.irga_tec_tmpr_f_Tot">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.irga_src_pwr_f_Tot">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.irga_src_tmpr_f_Tot">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.irga_src_curr_f_Tot">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.irga_off_f_Tot">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.irga_sync_f_Tot">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.irga_amb_tmpr_f_Tot">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.irga_amb_press_f_Tot">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.irga_CO2_I_f_Tot">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.irga_CO2_Io_f_Tot">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.irga_H2O_I_f_Tot">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.irga_H2O_Io_f_Tot">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.irga_CO2_Io_var_f_Tot">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.irga_H2O_Io_var_f_Tot">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.irga_CO2_sig_strgth_f_Tot">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.irga_H2O_sig_strgth_f_Tot">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.irga_cal_err_f_Tot">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.irga_htr_ctrl_off_f_Tot">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.alpha">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.beta">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.gamma">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.height_measurement">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.height_canopy">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.surface_type_text">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.displacement_user">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.d">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.roughness_user">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.z0">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.z">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.L">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.stability_zL">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.iteration_FreqFactor">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.latitude">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.longitude">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.separation_x_irga">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.separation_y_irga">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.separation_lat_dist_irga">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.separation_lag_dist_irga">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.separation_lag_scan_irga">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.MAX_LAG">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.lag_irga">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.FreqFactor_uw_vw">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.FreqFactor_wTs">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.FreqFactor_wCO2_wH2O">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.rho_d_Avg">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.rho_a_Avg">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.Cp">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.Lv">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.door_is_open_Hst">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.panel_tmpr_Avg">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.batt_volt_Avg">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.slowsequence_Tot">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.process_time_Avg">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.process_time_Max">
+            <summary></summary> 
+        </member>
+        <member name="P:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Flux.buff_depth_Max">
+            <summary></summary> 
+        </member>
         <member name="T:Nsar.Nodes.Models.LoggerNet.TOA5.DataTables.Meteorology">
             <summary></summary>
         </member>
